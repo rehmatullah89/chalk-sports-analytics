@@ -1,0 +1,95 @@
+#cs-wrapper{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/cs-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-holder{
+    max-width: 524.97px;
+    height: 716.82px;
+    left: 235px;
+    top: 50%;
+    position: relative;
+    padding: 70px 67px;
+    background: rgba(39, 46, 52,0.7);
+    transform: translateY(-50%);
+}
+.logo {
+    margin-bottom: 76px;
+    justify-content: start;
+}
+.logo a:first-child {
+    font-size: 22px;
+    line-height: 29px;
+}
+.logo a {
+    font-size: 17px;
+    line-height: 21px;
+}
+.subscribe{
+    padding: 45px 0;
+}
+.subscribe p{margin: 0 0 10px;}
+.input-group .btn{
+    background: #2F80ED;
+    border-color: #2F80ED;
+    border-radius: 0px 8px 8px 0px;
+}
+.subscribe .form-control{
+    border-radius: 8px;
+}
+.socials-icon{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 24px;
+    position: absolute;
+    left: 67px;
+    bottom: 70px;
+}
+.socials-icon li{
+    padding: 0 24px 0 0;
+}
+.socials-icon li a{
+    color: #D9D9D9;
+}
+.socials-icon li a:hover .fa-facebook-f{
+    color: #4267B2;
+}
+.socials-icon li a:hover .fa-twitter{
+    color: #00acee ;
+}
+.socials-icon li a:hover .fa-linkedin{
+    color: #0077b5;
+}
+@media screen and (max-width: 1280px){
+    .banner-holder{left: 172px;}
+}
+@media screen and (max-width: 1199px){
+    .banner-holder{left: 100px;}
+}
+@media screen and (max-width: 767px){
+    .banner-holder{
+        left: 50%;
+        height: 70vh;
+        max-width: 300px;
+        padding: 20px 15px;
+        transform: translate(-50%, -50%);
+    }
+    .logo a:first-child {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .logo a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .socials-icon{
+        left: 15px;
+        bottom: 20px;
+    }
+}

@@ -1,0 +1,49 @@
+@extends('layouts.app')
+@section('content')
+<div class="container-fluid">
+    <div class="justify-content-center">
+        @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <strong>Opps!</strong> Something went wrong, please check below errors.<br><br>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        <div class="card">
+            <div class="card-header">Edit team
+                <span class="float-right">
+                    <a class="btn btn-outline-primary btn-sm" href="{{ route('teams.index') }}"><strong>Teams</strong></a>
+                </span>
+            </div>
+            <div class="card-body">
+                {!! Form::model($team, ['route' => ['teams.update', $team->id], 'enctype'=>'multipart/form-data', 'method'=>'PATCH']) !!}
+                    <div class="form-group">
+                        <strong>Name:</strong>
+                        {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
+                    </div>
+                    <div class="form-group" style="margin-bottom: 5px;">
+                        <strong>Ranking:</strong>
+                        {!! Form::number('ranking', null, array('placeholder' => 'Ranking','class' => 'form-control')) !!}
+                    </div>
+                    <div class="form-group" style="margin-bottom: 5px;">
+                        <strong>Color:</strong>
+                        {!! Form::text('colors', null, array('placeholder' => 'Color','class' => 'form-control')) !!}
+                    </div>
+                    <div class="form-group" style="margin-bottom: 5px;">
+                        <strong>Logo:</strong>
+                        {!! Form::file('media', null, array('placeholder' => 'Color','class' => 'form-control')) !!}
+                    </div>
+                    <div class="form-group" style="margin-bottom: 5px;">
+                        <strong>Detail:</strong>
+                        {!! Form::textarea('detail', null, array('placeholder' => 'Body','class' => 'form-control')) !!}
+                    </div>
+                <div style="padding-top: 5px;"><button type="submit" class="btn btn-outline-primary btn-sm">Submit</button></div>
+                {!! Form::close() !!}
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

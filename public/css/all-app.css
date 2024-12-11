@@ -1,0 +1,1676 @@
+#app .heading-bar{
+    background-color: #373C45;
+}
+.match-info{
+    display: flex;
+    /*flex: 0 0 50%;*/
+    width: 430px;
+    align-items: center;
+    justify-content: flex-start;
+    /*justify-content: space-between;*/
+}
+.match-info.add-style{
+    padding-right: 50px;
+    position: relative;
+    justify-content: flex-end;
+}
+.match-info.add-style:after{
+    content: "@";
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    font-weight: bold;
+    right: 15px;
+}
+.match-info .team-logo{
+    margin: 0 15px 0 10px;
+    width: 55px;
+    height: 55px;
+}
+.match-info .team-logo img{
+    width: 90%;
+    display: block;
+    height: auto;
+}
+.match-info .team-logo.add-margin{
+    margin: 0 10px 0 15px;
+}
+.match-info .team-logo {max-width: 35px;}
+.select2-selection--multiple, .drop-down{
+    background-color: #6C7277;
+    border: 1px solid #6c7277;
+    color: #fff;
+    border-radius: 20px !important;
+    margin-right: 10px;
+    background-image: url("../images/select-arrow.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+}
+#header{
+    padding: 12px 20px !important;
+    background-color: rgba(43, 49, 56, 0.7) !important;
+}
+.float-right {float: right}
+.btn-outline-light{background-color: red !important; border: none !important;}
+html, body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif !important;
+    background: #343a40;
+}
+.navbar-brand, .modal-title{
+    color: white !important;
+    font-weight: 900 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+.navbar-nav .nav-link, h3{
+    color: white !important;
+    font-family: 'Inter', sans-serif !important;
+}
+.schedules-page .card-table:last-child .table-frame,
+    .schedules-page .card{
+        max-height: inherit;
+        margin: 0;
+    }
+.card .card-header{
+    /*font-weight: bold;
+    border-bottom-color: #373C45 !important;*/
+    background: #373C45 !important;
+    color: white;
+    font-size: 26px;
+    line-height: 35px;
+    border-bottom: #6c757d 1px solid;
+    border-width: 1px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.schedules-page .table-frame{
+    max-height: inherit;
+    overflow: hidden;
+}
+.schedules-page .card{
+    padding: 12px;
+}
+.card{
+    margin-top: 10px;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+.card.card-table{
+    padding: 12px;
+    background: #373C45;
+}
+.card-body, .modal-content{
+    padding: 10px 0 0;
+    background-color: #343a40 !important;
+}
+.table th{
+    border: none;
+    color: #fff;
+    background: #373C45;
+    padding: 8px 8px 8px 16px;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+.table td{
+    border: none;
+    color: #fff;
+    background: #414953;
+    padding: 8px 8px 8px 16px;
+    box-shadow: inset 0px -1px 0px rgb(0 0 0 / 30%);
+}
+.afterLogin .table td,
+.beforLogin .table td{box-shadow: inset 0px -2px 0px rgb(0 0 0 / 30%);}
+.tbody tr:hover{
+    background: white !important;
+}
+.pagination .page-item{
+    margin-left: 10px;
+}
+.card .btn-outline-primary {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 10px 14px;
+    color: #fff;
+    border: 2px solid #F7002E;
+    background: #414953;
+}
+.card .schedule-table .btn-outline-primary{
+    min-width: 150px;
+}
+
+.card .schedule-table .btn-outline-primary.btn-sm{
+    min-width: 120px;
+    font-weight: inherit;
+}
+
+.card .btn-outline-primary:hover {
+    background: #6c7277;
+    border-color: #F7002E;
+}
+.table > tbody > tr:hover > * {
+    background-color: #6c7277;
+    color: #ffffff;
+}
+
+.disable-hover > tbody > tr:hover > *{
+    background-color: #414953;
+}
+
+.lead{
+    color: white;
+}
+.form-group strong, label{
+    color: white;
+}
+.fa{
+    color: white;
+}
+.fa:hover{
+    color: #414953;
+}
+label + strong{
+    padding: 10px;
+}
+.img-size{
+    width: 35px !important;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    font-weight: 400;
+    font-size: 25.3044px;
+    line-height: 31px;
+    color: #fff;
+    margin-top: 3px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif !important;
+}
+.logo a:first-child{
+    font-size: 32px;
+    line-height: 39px;
+    position: relative;
+    margin: 0 30px 0 0;
+}
+.logo a:first-child:after{
+    width: 1px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -16px;
+    background: #fff;
+}
+#app .navbar{
+    overflow: visible;
+    color: white !important;
+    background-color: rgba(43, 49, 56, 0.7);
+}
+.navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5BABD !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-bottom: 3px solid transparent;
+}
+footer, .nav-link{
+    font-family: 'Inter' !important;
+}
+.navbar-nav  li {
+    padding: 0 15px 0 0;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav li:hover .nav-link, .navbar-nav .active .nav-link {
+    color: #fff !important;
+    border-bottom-color: #F7002E;
+}
+.navbar-nav .dropdown-menu{
+    background-color: rgba(43, 49, 56, 0.7) !important;
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+    font-weight: 600;
+    color: #B5BABD !important;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(43, 49, 56, 0) !important;
+}
+.icon {
+    height: 4px;
+    width: 30px;
+    top: 10px;
+    background-color: #F8FFE9;
+    border-radius: 20px;
+    position: absolute;
+    transition-duration: 0.5s;
+  }
+  .icon:before {
+    left: 0;
+    position: absolute;
+    top: -10px;
+    height: 4px;
+    width: 30px;
+    background-color: #F8FFE9;
+    content: "";
+    border-radius: 20px;
+    transition-duration: 0.5s;
+  }
+  .icon:after {
+    left: 0;
+    position: absolute;
+    top: 10px;
+    height: 4px;
+    width: 30px;
+    background-color: #F8FFE9;
+    content: "";
+    border-radius: 20px;
+    transition-duration: 0.5s;
+  }
+
+  .menu {
+    width: 30px;
+    height: 26px;
+    position: relative;
+    transition-duration: 1s;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .burger2 .icon {
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+  }
+  .burger2 .icon:after {
+    transition: transform 0.5s, top 0.5s 0.5s;
+  }
+  .burger2 .icon:before {
+    transition: transform 0.5s, top 0.5s 0.5s;
+  }
+
+  .burger2.open .icon {
+    transition-duration: 0.1s;
+    transition-delay: 0.5s;
+    background: transparent;
+  }
+
+  .burger2.open .icon:before {
+    transition: top 0.5s, transform 0.5s 0.5s;
+    top: 0px;
+    transform: rotateZ(-45deg);
+  }
+
+  .burger2.open .icon:after {
+    transition: top 0.4s, transform 0.5s 0.5s;
+    top: 0px;
+    transform: rotateZ(45deg);
+  }
+.menu{
+    display: none;
+}
+.input-style{
+    background: transparent;
+    border: 1px solid #6C7277;
+    color: white;
+    padding: 2px 5px;
+    text-align: right;
+    font-size: 12px;
+    width: 35px;
+}
+.hiddenRow td{
+    background: rgba(65, 73, 83, 0.4) !important;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.16);
+}
+.select2-container--default .select2-selection--multiple {
+    background-color: #6c7277 !important;
+    border-color: #6c7277 !important;
+    background-image: none !important;
+    color: #6c7277 !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+}
+.select2-container .select2-selection--multiple .select2-selection__clear{
+    color: white;
+    border-radius: 20px !important;
+}
+
+.fa{
+    font-size: 16px !important;
+    color: lightgrey;
+}
+
+.red-box {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: 1px solid red;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.yellow-box {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.banner{position: relative;}
+.banner-holder{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 0;
+    background: rgba(55, 60, 69, 0.7);
+}
+.banner-holder h1{
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: 'Inter', sans-serif;
+}
+.dashboard-card{
+    padding: 24px;
+    position: relative;
+    min-height: 150px;
+    background: #414953;
+    border-bottom: 2px solid transparent;
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); */
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    color: white;
+}
+.dashboard-card:hover{
+    border-color: #F7002E;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+.dashboard-card h2{
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+.dashboard-card i{
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}
+.table.new-style td{
+    max-width: 250px;
+    padding: 15px 8px 16px 16px;
+}
+.table .d-flex{
+    flex-direction: column;
+}
+.table .match-info.add-style{
+    width: 100%;
+    padding: 0 0 15px 0;
+    justify-content: flex-start;
+    margin: 0 0 15px;
+}
+
+
+
+
+.table .match-info.add-style::before{
+    width: calc(100% - 65px);
+    height: 1px;
+    position: absolute;
+    left: 65px;
+    bottom: 0;
+    content: "";
+    background: #292d347d;
+    display: none;
+}
+.afterLogin .table .match-info.add-style::before,
+.beforLogin .table .match-info.add-style::before{
+    display: block;
+}
+.table .match-info.add-style:after{
+    top: auto;
+    right: auto;
+    left: 44px;
+    bottom: -13px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #c0c0c0;
+}
+.table .match-info .team-logo{
+    height: auto;
+    margin: 0 10px 0 0;
+}
+.table .match-info .team-name{text-align: left;}
+.table .match-info .team-name h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.outline-txt-info{
+    display: flex;
+    min-width: 70px;
+    border-radius: 8px;
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    justify-content: center;
+    border: 1px solid #292d34;
+    min-height: 40px;
+    max-height: 40px;
+}
+.outline-txt-info:last-child{
+    margin-bottom: 0;
+}
+
+.outline-txt-info:hover{
+    background-color: #6C7277;
+}
+
+.outline-txt-info span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    padding: 0;
+}
+.outline-txt-info label{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.outline-txt-info span:nth-child(2){
+    color: white;
+}
+.table tr:hover .match-info.add-style:after{background: #6c7277;}
+.table.disable-hover tr:hover .match-info.add-style:after{background: inherit;}
+.btn-edit{
+    float: right;
+}
+.date {
+    display: block;
+    padding: 2px 0;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ccc;
+}
+.table.new-style .btn{
+    background: transparent;
+    border-color: #fff;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapse-content {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+}
+.main-svg{
+    background: none !important;
+}
+.js-plotly-plot{
+    color: white !important;
+    background: lightgrey;
+    max-height: 180px;
+    margin-bottom: 20px;
+}
+.user-select-none.svg-container{
+    margin: 0 auto !important;
+}
+.js-plotly-plot .plotly .main-svg {
+    top: -25px !important;
+}
+.guage-box{
+    width: 100%;
+    min-height: 200px;
+    background: #414953;
+    padding: 19px 8px;
+    margin: 0 0 24px;
+    color: white !important;
+}
+.guage-box .detail-info{
+    padding: 0 0 10px;
+}
+.guage-box .detail-info .badge{
+    color: #FFE792;
+    background: rgba(255, 199, 0, 0.15) !important;
+    border-radius: 2px;
+}
+.guage-box h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+.list{
+    padding: 0;
+    margin: 0;
+    color: silver;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 8px;
+    border-left: 1px solid #7E8698;
+}
+.list li:first-child{border-left: none;}
+
+
+.outer {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+canvas {
+    position: absolute;
+}
+.percent {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 80px;
+    bottom: 0;
+}
+.vodiapicker{
+    display: none;
+}
+#a{
+    margin: 0;
+    padding-left: 0px;
+}
+#a img, .btn-select img{
+    width: 16px;
+    margin: 4px 0 0;
+}
+#a li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+#a li:hover{
+    background: #6C7277;
+}
+/* #a li:hover{
+ background-color: #F4F3F3;
+} */
+#a li img{
+    margin: 5px 0px 5px 8px;
+}
+#a li span, .btn-select li span{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+/* item list */
+.b{
+    display: none;
+    width: 100%;
+    max-width: 300px !important;
+    border-radius: 20px;
+    background: #6c7277f5;
+    overflow: hidden;
+    z-index: 100;
+    top: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.b ul{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.btn-select{
+    color: #fff;
+    height: 34px;
+    border-radius: 20px;
+    background-color: #6C7277;
+    border: 1px solid #6C7277;
+    max-width: 300px !important;
+    width: 100%;
+}
+.btn-select li{
+    list-style: none;
+    padding-left: 7px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+    position: relative;
+}
+.btn-select li:after{
+    content: '';
+    background-image: url("../images/select-arrow.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.btn-select:hover li{
+    margin-left: 0px;
+}
+.btn-select:focus{
+    outline:none;
+}
+.team-select-home,.team-select-away,.main_div_user,.main_div_season,.main_div_week{
+    width: 250px;
+    position: relative;
+}
+.card-header-web{
+    border-width: 1px;
+    font-size: 26px;
+    border-bottom: #6c757d 1px solid;
+    padding-bottom: 10px;
+    line-height: 38px;
+    background: #373C45 !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+option:hover {
+    background-color: gray !important;
+    color: white !important;
+}
+
+select:focus > option:checked {
+    background: dimgray !important;
+}
+.mt-3 {
+    margin-top: 0.5rem!important;
+}
+
+table.schedule-table td {
+
+    font-size: 16px !important;
+
+}
+
+table.schedule-table td div {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 29px;
+}
+.schedule-table .internal-schedule .d-flex,
+.schedule-table .internal-schedule {
+    flex-direction: row !important;
+}
+.schedule-table .internal-schedule .d-flex,
+.schedule-table .internal-schedule {
+    flex-direction: row !important;
+}
+#header .container-fluid{
+    max-width: inherit;
+}
+.container-fluid {
+    max-width: 1800px;
+}
+.badge .bg-secondary{
+    min-width: 123px !important;
+    color: white !important;
+}
+.form-group .team-info{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.form-group .team-info .team-logo{
+    max-width: 80px;
+    margin: 0 15px 0 0;
+    overflow: hidden;
+}
+
+.form-group .team-info .team-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.form-group .team-info .team-name{
+    text-align: center;
+}
+
+.form-group .team-info.right .team-logo{
+    margin: 0 0 0 15px;
+}
+.table th:last-child{
+    border-top-right-radius: 20px;
+}
+.table th:first-child{
+    border-top-left-radius: 20px;
+}
+
+.table tr:last-child td:last-child{
+    border-bottom-right-radius: 20px;
+}
+.table tr:last-child td:first-child{
+    border-bottom-left-radius: 20px;
+}
+.form-select{
+    border-radius: 20px;
+    max-width: 250px !important;
+}
+.predictions form{
+    max-width: 650px;
+    margin: 0 auto;
+}
+.txt-sign{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55px);
+}
+.txt-sign span{
+    font-size: 20px;
+}
+
+.view-game-table td:first-child{
+ width: 67%;
+}
+.progress {
+    width: 100%;
+    height: 1.2rem;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 1px;
+    line-height: 19px;
+    padding-bottom: 1px;
+    color: white;
+    font-weight: bold;
+}
+.margin-top{
+    margin-top: 10px;
+}
+
+.table td .message-table{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 24px;
+    padding: 40px 15px;
+}
+.show-on-mobile {
+    display: none;
+}
+
+.viewGamePage .table{
+    margin-bottom: 56px;
+}
+.viewGamePage .table th,
+.viewGamePage .table td{
+    padding: 8px;
+}
+.viewGamePage .table .add-width{
+    padding-right: 40px;
+}
+.col-width{
+    width: 15%;
+}
+.gradeCol-width {
+    width: 35px;
+    margin-left: auto;
+}
+.beforLogin .table .match-info.add-style,
+.afterLogin .table .match-info.add-style{
+    padding: 0 0 12px 0;
+    margin: 0 0 15px;
+    height: 52px;
+}
+.beforLogin .table .match-info.add-style:after{
+    top: auto;
+    transform: none;
+}
+.beforLogin .table .match-info.add-style:after,
+.afterLogin .table .match-info.add-style:after{bottom: -4px;}
+.beforLogin .table .match-info.add-style:before,
+.afterLogin .table .match-info.add-style:before{bottom: 2px;}
+.nav-link:hover, .nav-link:focus{
+    color: white;
+}
+div#all_predictions_paginate{
+    padding-top: 15px;
+}
+#main.inner-page {
+    padding: 15px 0 30px;
+    min-height: calc(100vh - 326px);
+}
+.schedules-page .detail-info .d-inline-block .badge{
+    margin: 10px 5px 0;
+}
+.table .nfl-picks .match-info .team-logo{
+    width: 50px !important;
+    max-width: 50px !important;
+    height: auto !important;
+}
+.table .nfl-picks .match-info .team-logo .img-size{
+    width: 40px !important;
+    height: auto !important;
+}
+.table .nfl-picks .match-info.add-style:after{
+    left: 60px;
+}
+.table .nfl-picks .match-info.add-style::before{
+    left: 80px;
+}
+.table .nfl-picks .date{
+    padding: 5px 0 0;
+}
+
+.schedules-page .table .match-info.add-style:after{
+    content: "@";
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    font-weight: 400;
+    left: auto;
+    bottom: auto;
+    top: 50%;
+    right: 15px;
+    color: #d3d3d3;
+    transform: translateY(-50%);
+}
+.schedules-page .table .match-info.add-style .team-name{
+    margin: 0;
+    text-align: right;
+}
+.schedules-page .table .match-info.add-style{
+    margin: 0;
+    padding: 0 50px 0 0;
+    position: relative;
+    justify-content: flex-end;
+}
+.schedules-page .match-info .team-name h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 5px;
+}
+.schedules-page .badge {
+    padding: 4px;
+    height: 24px;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    min-width: 60px;
+    background-color: #6c757d!important;
+}
+
+.schedules-page .table .match-info .team-logo{
+    margin: 0 10px 0 15px;
+    max-width: 50px !important;
+    width: 50px !important;
+    height: auto !important;
+}
+.schedules-page .match-info .team-logo .img-size {
+    width: 50px !important;
+    display: block;
+    height: auto;
+}
+.schedules-page .match-info .team-score{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    min-width: 26px;
+}
+.schedules-page .table td{
+    padding: 14px 8px;
+}
+.card.schedules-page .schedule-table .btn-outline-primary{
+    margin: 0 2px;
+}
+table.schedule-table.schedule-table-mobile td .match-info{
+    width: 100%;
+}
+table.schedule-table.schedule-table-mobile td:first-child{
+    width: 20%;
+}
+.page-link{
+    color: #000;
+}
+.table-borderless{
+    width: 100%;
+    font-size: 16px;
+    overflow: hidden;
+    border-collapse: inherit;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+.table-borderless tr:last-child td:first-child{border-radius: inherit;}
+.table-borderless tr td{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.table-borderless .form-check-inline{
+    position: relative;
+    margin-right: 0;
+}
+.table-borderless .form-check-input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+}
+.footer-txt{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 25px 0 10px;
+}
+.footer-txt p{
+    margin: 0 0 25px;
+}
+.footer-txt h5{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-txt .d-flex li{
+    padding: 0 5px;
+}
+.footer-txt .d-flex li:first-child{
+    padding-left: 0;
+}
+.footer-txt .d-flex li a{
+    margin: 0 !important;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 5px 12px;
+    color: #414953;
+    border: 2px solid #323741 !important;
+}
+.footer-txt .d-flex li a:hover{
+    color: #fff;
+    border-color: #fff !important;
+}
+.footer-txt .list-unstyled li a:hover{
+    color: #F7002E !important;
+}
+
+
+@media screen and (max-width: 1699px) {
+    .packages-card-holder .card{
+        flex: 0 0 18.6%;
+    }
+    .col-width {
+        width: 16%;
+    }
+}
+/* @media screen and (max-width: 1599px) {
+    .logo a:first-child {
+        font-size: 26px;
+        line-height: 29px;
+    }
+} */
+@media screen and (max-width: 1599px) {
+    h2 {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 29px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .btn, .card .btn-outline-primary {
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .match-txt strong {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .team-logo {max-width: 80px;}
+    .match-info .team-logo {max-width: 35px;}
+    .mCSB_inside>.mCSB_container {margin-right: 15px;}
+    .mCSB_scrollTools{right: -6px;}
+    .logo a:first-child {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .container-fluid{padding: 0 10px;}
+    .col-width {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 1399px){
+    .js-plotly-plot .plotly .main-svg {
+        left: -20px !important;
+    }
+    .col-width {
+        width: 20%;
+    }
+    table.schedule-table.schedule-table-mobile td:first-child{
+        width: auto;
+    }
+}
+@media screen and (max-width: 1199px){
+    .logo a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .logo a:first-child {
+        font-size: 24px;
+        line-height: 27px;
+        margin: 0 19px 0 0;
+    }
+    .logo a:first-child:after{right: -10px;}
+    .col-width {
+        width: 27%;
+    }
+}
+@media screen and (max-width: 1099px){
+    .guage-holder .col-md-3{
+        width: 32%;
+    }
+}
+@media screen and (max-width: 767px){
+    .logo a {font-size: 18px;}
+    .logo a:first-child {font-size: 18px;}
+}
+@media screen and (max-width:1299px) {
+    .dashboard-card h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dashboard-card{min-height: 160px;}
+}
+@media screen and (max-width:1023px) {
+    .dashboard-card h2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .predictions .btn-select{
+        width: 100%;
+        max-width: 100% !important;
+    }
+    .team-select-home, .team-select-away, .main_div_user, .main_div_season, .main_div_week{
+        width: 100%;
+    }
+    .txt-sign{
+        width: 8px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-22px);
+    }
+    .txt-sign span{
+        font-size: 14px;
+    }
+    .view-game-table td:first-child {
+        width: 44%;
+    }
+    #main.inner-page{
+        padding: 90px 0 50px;
+    }
+
+}
+@media screen and (max-width: 1499px){
+    .packages-card-holder .card{
+        flex: 0 0 18.5%;
+    }
+}
+@media screen and (max-width: 1399px){
+    body {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .match-info .team-logo.add-margin {margin: 0 5px 0 0;}
+    .match-info .team-logo {margin: 0 10px;}
+    .table-frame .btn{padding: 10px;}
+    .packages-card-holder .card{
+        flex: 0 0 18.3%;
+    }
+    .packages-card-holder h3 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .card.schedules-page .schedule-table .btn-outline-primary {
+        margin: 0 2px 4px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .col-lg-6{width: 100%;}
+    .packages-card-holder .card{
+        flex: 0 0 18%;
+    }
+}
+@media screen and (max-width: 1279px) {
+    /* start final task */
+    .match-info{
+        width: 350px;
+    }
+    table.schedule-table td {
+        width: 100%;
+        display: block;
+        box-shadow: none;
+    }
+    table.schedule-table tr{
+        border-bottom: 1px solid #2B3138;
+    }
+    .schedules-page .table.schedule-table-mobile td{
+        text-align: center !important;
+    }
+    .schedules-page .schedule-table-mobile .match-info{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    /* end final task */
+}
+@media screen and (max-width: 1199px){
+    .detail-info .badge{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0.30em 0.32em;
+    }
+    h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .js-plotly-plot .plotly .main-svg{
+        left: -15px;
+    }
+    .nav ul li{padding: 0;}
+    .nav ul:last-child {margin-left: 0px;}
+    .nav ul li a{padding: 10px;}
+    .logo a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .logo a:first-child {
+        font-size: 24px;
+        line-height: 27px;
+        margin: 0 19px 0 0;
+    }
+    .logo a:first-child:after{right: -10px;}
+    .packages-card-holder .card {
+        flex: 0 0 17.9%;
+    }
+}
+@media screen and (max-width: 1023px){
+    .margin-top .col-6{
+        width: 100%;
+    }
+    .card{
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .margin-top {
+        margin-top: -80px;
+        margin-bottom: 10px;
+    }
+    #main {padding: 0 0 40px;}
+    .nav ul li {padding: 0 6px 0 0;}
+    .card-box {margin-bottom: 10px;}
+    .menu{
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        display: block;
+    }
+    #app .logo{
+        padding: 0;
+    }
+    #nav.slideMenu{
+        top: 100%;
+        margin: 0;
+    }
+    #nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #000;
+        transition: all 1s;
+        margin: -350px 0 0;
+    }
+    .nav-holder{
+        padding: 12px;
+    }
+    #header{
+        overflow: visible;
+        margin: 0 0 -78px;
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        right: 0;
+    }
+    .packages-card-holder .card {
+        flex: 0 0 30.4%;
+    }
+    #footer .container{
+        max-width: 100%;
+    }
+    #footer .row .col-md-2,
+    #footer .row .col-md-6{
+        width: 100%;
+    }
+    #footer .d-flex{
+        justify-content: center;
+    }
+    #footer .row{
+        flex-direction: column;
+    }
+    #footer .text-center.p-3{
+        width: 100%;
+        display: block;
+    }
+}
+@media screen and (max-width: 767px){
+    .nav-holder, .nav ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav ul li {
+        padding: 0 0 10px;
+        margin: 0;
+        width: 100%;
+    }
+    .nav ul li a {
+        padding: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        display: inline-block;
+    }
+    .nav ul:last-child{
+        flex-direction: unset;
+    }
+    .nav ul:last-child li{
+        width: auto;
+        padding: 0 10px;
+    }
+    .card-box{
+        flex-direction: column;
+    }
+    .detail-info {
+        padding: 25px 0;
+        width: 100%;
+        text-align: right;
+    }
+    .table.new-style th,
+    .table.new-style td {
+        max-width: 100%;
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .outline-txt-info{
+        min-width: 50px;
+    }
+    .img-size {
+        width: 25px !important;
+    }
+    .team-logo {
+        max-width: 50px;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    .team-info{
+        width: 100%;
+        text-align: left;
+    }
+    .banner{
+        height: 300px;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+    }
+    .logo a {font-size: 18px;}
+    .logo a:first-child {font-size: 18px;}
+    .margin-top .d-flex.justify-content-center{
+        justify-content: end !important;
+    }
+    .card ul li{
+        flex-wrap: wrap;
+    }
+    .match-txt{flex: 0 0 100%;}
+    .card ul li .match-txt:first-child{margin-bottom: 10px;}
+    .match-info{
+        margin-bottom: 10px;
+    }
+    .table.new-style .match-info{
+        width: 94px;
+    }
+    .outline-txt-info span span{
+        padding: 10px 4px;
+    }
+    .match-txt .btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .card .match-txt .btn {
+        margin: 0 5px !important;
+    }
+    .nav.tab-link li .nav-link{
+        padding: 5px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .nav.tab-link li .nav-link.active{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .packages-card-holder .card {
+        flex: 0 0 45.6%;
+    }
+    .guage-holder .col-md-3 {
+        width: 100%;
+    }
+    .guage-holder .table th,
+    .guage-holder .table td{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .btn-select li{
+        height: 100%;
+    }
+    #a li span, .btn-select li span{
+        margin-top: 0;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .btn-select li:after{
+        margin-right: 0;
+        right: 2px;
+    }
+    #a img, .btn-select img{
+        margin: 0;
+    }
+    .table .match-info .team-logo,
+    .match-info .team-logo.add-margin {margin: 0 10px;}
+    .table .match-info.add-style:after{left: 34px}
+    .js-plotly-plot .plotly .main-svg {
+        left: 0px !important;
+    }
+    .table td .message-table{
+        line-height: 20px;
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+    .scroll-on-mobile{
+        overflow-y: auto;
+    }
+    .scroll-on-mobile .table{
+        margin-bottom: 6px;
+    }
+    .scroll-on-mobile .table.data-scroll-table{
+        table-layout: inherit !important;
+    }
+    .tab-content>.tab-pane ul .d-flex{
+
+        display: block !important;
+
+    }
+    .tab-content>.tab-pane ul .d-flex .d-flex.align-items-center{
+        display: flex !important;
+    }
+    .card ul li .match-txt:first-child{
+        display: block !important;
+        text-align: center;
+    }
+
+    .detail-info .d-flex .badge{
+        min-width: 120px !important;
+        margin-bottom: 10px;
+    }
+    .tab-content .match-info.add-style{padding: 0;}
+
+    .match-info.add-style:after{display: none;}
+
+    .tab-content .match-info{padding: 0;}
+
+    .detail-info {padding: 0 0 25px;}
+    .detail-info.match-txt{
+        display: block !important;
+    }
+    table.schedule-table td .style-for-mobile{
+        flex-direction: row;
+    }
+    table.schedule-table td .style-for-mobile .d-inline-block{
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .show-on-mobile.pt-3{
+        display: block !important;
+    }
+    .hide-on-mobile{
+        display: none !important;
+    }
+    .show-on-mobile.pt-3 {
+        display: block !important;
+        width: 100% !important;
+    }
+    body {
+        min-width: 320px;
+    }
+    #app{
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        overflow-y: auto;
+    }
+    #main.inner-page {
+        padding: 80px 0 25px !important;
+
+    }
+    .viewGamePage .d-flex.mb-4 {
+        flex-direction: column;
+    }
+    .viewGamePage .d-flex.mb-4 .d-inline-block {
+        width: 100% !important;
+    }
+    #main.inner-page .viewGamePage {
+        padding: 20px 0;
+    }
+    .viewGamePage .team-logo img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .viewGamePage .table .add-width {
+        padding-right: 20px;
+    }
+    .view-game-table td:first-child {
+        width: inherit;
+    }
+    .col-width {
+        width: 40%;
+    }
+    .show-on-mobile {
+        display: flex;
+    }
+    .beforLogin .outline-txt-info span span,
+    .afterLogin .outline-txt-info span span{
+        padding: 10px 0;
+    }
+    .beforLogin .outline-txt-info,
+    .afterLogin .outline-txt-info{
+        margin-top: 0;
+    }
+    .beforLogin .outline-txt-info,
+    .afterLogin .outline-txt-info {
+        min-width: 40px;
+    }
+    .beforLogin .table .match-info.add-style
+    .afterLogin .table .match-info.add-style {
+        padding: 0 0 20px 0;
+        margin: 0 0 13px;
+    }
+    .beforLogin .table.new-style td,
+    .afterLogin .table.new-style td{
+        padding: 10px 3px;
+    }
+    .beforLogin .match-info .team-logo .img-size,
+    .afterLogin .match-info .team-logo .img-size {
+        width: 35px !important;
+    }
+    .beforLogin .table .match-info .team-name,
+    .afterLogin .table .match-info .team-name {
+        min-width: 63px;
+    }
+    .afterLogin .table td,
+    .beforLogin .table td{box-shadow: inset 0px -1px 0px rgb(0 0 0 / 30%);}
+    .schedules-page .schedule-table .btn-outline-primary {
+        margin: 0 5px 5px !important;
+    }
+    .schedules-page .detail-info {
+        padding: 0 0 10px;
+    }
+    .form-check-input{
+        margin-left: 0 !important;
+    }
+    .login-pg {
+        max-width: 320px;
+    }
+    .afterLogin .table.new-style .match-info.right,
+    .beforLogin .table.new-style .match-info.right{
+        margin-bottom: 0;
+    }
+    .afterLogin .table.new-style .match-info,
+    .beforLogin .table.new-style .match-info {
+        width: 130px;
+        height: auto;
+        margin: 0;
+        padding: 0 0 10px;
+    }
+    .table .nfl-picks .match-info .team-logo {
+        width: 35px !important;
+        max-width: 35px !important;
+        height: auto !important;
+        margin-right: 7px;
+    }
+    .table .nfl-picks .match-info .team-logo .img-size {
+        height: 35px !important;
+      }
+    .schedules-page .schedule-table-mobile .match-info{
+        margin-bottom: 0;
+    }
+    .schedules-page .table .match-info.add-style{
+        padding: 0;
+    }
+    .schedules-page .match-info .team-name h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .schedules-page .table .match-info .team-logo{
+        margin: 0 10px;
+        max-width: 40px !important;
+        width: 40px !important;
+    }
+    .schedules-page .match-info .team-logo .img-size {
+        width: 40px !important;
+    }
+    .afterLogin .table .match-info.add-style::before, .beforLogin .table .match-info.add-style::before{
+        display: none;
+    }
+    .table td,
+    .table th{
+        padding: 8px;
+        font-size: 12px;
+    line-height: 16px;
+    }
+    .card .card-header{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .navbar-collapse{
+        display: block !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #000;
+        transition: all 1s;
+        margin: -350px 0 0;
+    }
+    .navbar-collapse.slideMenu{
+        top: 100%;
+        margin: 0;
+    }
+    .navbar-nav .dropdown-menu{
+        background-color: #000 !important;
+        padding: 0 20px;
+    }
+    .team-action-btn .btn{
+        padding: 0 4px;
+    }
+    #payment-form .d-flex.col-xs-12{
+        flex-direction: column;
+    }
+    #payment-form .d-flex.col-xs-12 .d-inline-block{
+        width: 100% !important;
+        margin: 0 0 10px;
+    }
+}
+
